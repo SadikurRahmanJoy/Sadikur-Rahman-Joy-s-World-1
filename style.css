@@ -1,0 +1,23 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.headings-color{
+    color: rgba(22, 211, 211, 0.986);
+}
+.top-part{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.p-photo{
+    width: 60%;
+}
+.buttons{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    background-image: linear-gradient(cyan, rgb(253, 142, 160));
+}
