@@ -31,7 +31,7 @@ body{
 }
 #intro-h3{
     color: white;
-    background-image: linear-gradient(rgb(255, 166, 0), rgba(245, 4, 97, 0.87));
+    background-image: linear-gradient(rgba(224, 157, 31, 0.808), rgba(218, 49, 113, 0.842));
     padding: 15px;
     border-radius: 5px;
 }
