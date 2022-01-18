@@ -20,7 +20,7 @@ body{
     font-family: 'Cormorant Upright', serif;
     font-size: xx-large;
     border-left: 5px solid;
-    border-image: linear-gradient(cyan, rgba(85, 85, 238, 0.822));
+    border-image: linear-gradient(cyan, rgba(205, 226, 17, 0.952));
     border-image-slice: 1;
     padding-left: 10px;
 }
@@ -31,7 +31,7 @@ body{
 }
 #intro-h3{
     color: white;
-    background-image: linear-gradient(cyan, rgba(85, 85, 238, 0.822));
+    background-image: linear-gradient(rgb(255, 166, 0), rgba(245, 4, 97, 0.87));
     padding: 15px;
     border-radius: 5px;
 }
@@ -44,10 +44,11 @@ body{
 }
 .buttons{
     text-decoration: none;
-    color: white;
-    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 10px;
     border-radius: 6px;
-    background-image: linear-gradient(cyan, rgba(85, 85, 238, 0.822));
+    background-image: linear-gradient(rgb(250, 255, 255), rgba(231, 185, 58, 0.952));
 }
 #mission-h1{
     font-family: 'Cormorant Upright', serif;
@@ -80,7 +81,7 @@ border-radius: 15px;
     font-size: x-large;
 }
 .names{
-    color: rgba(54, 58, 58, 0.658);
+    color: rgba(218, 159, 70, 0.699);
     text-decoration: none;
     font-style: italic;
 }
@@ -102,9 +103,9 @@ border-radius: 15px;
     display: flex;
     background-image: url(shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: right;
     background-size: 400px;
-    margin-left: 8%;
+    margin-right: 10%;
     margin-bottom: 50px;
 }
 .third-part-img{
@@ -130,10 +131,48 @@ border-radius: 15px;
 .fourth-part{
     display: flex;
     margin: 10%;
+    background-image: url(shapes/shape-4.png);
+    background-position: left;
+    background-size: 30%;
+    background-repeat: no-repeat;
 }
 .fourth-part-1{
     padding: 60px;
 }
 .fourth-part-2{
     width: 90%;
+}
+#build-heading{
+    text-align: center;
+    font-size: xx-large;
+}
+.build-heading-s{
+    color: rgba(60, 197, 26, 0.849);
+    font-size: 50px;
+}
+.save-the-world{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 10%;
+    background-image: url(shapes/shape-4.png);
+}
+.app-img{
+    width: 30%;
+    padding: 50px;
+}
+.save-the-world-p2{
+    width: 45%;
+    padding: 70px;
+}
+#build-heading-s2{
+    color: rgba(131, 199, 22, 0.808);
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+}
+#footer-year{
+    color: red;
 }
