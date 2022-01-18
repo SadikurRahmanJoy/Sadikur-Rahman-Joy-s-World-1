@@ -58,3 +58,40 @@ body{
     color: rgba(54, 58, 58, 0.658);
     font-size: 100px;
 }
+.middle-part{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.mission{
+width: 20%;
+padding: 40px;
+background-color: antiquewhite;
+border-radius: 15px;
+}
+.illustrations{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+.middle-part-headings{
+    font-size: x-large;
+}
+.names{
+    color: rgba(54, 58, 58, 0.658);
+    text-decoration: none;
+    font-style: italic;
+}
+.vision{
+    width: 20%;
+    padding: 40px;
+    background-color: rgba(250, 235, 215, 0.562);
+    border-radius: 15px;
+}
+.goals{
+    width: 20%;
+    padding: 40px;
+    background-color: rgba(255, 192, 203, 0.432);
+    border-radius: 15px;
+}
